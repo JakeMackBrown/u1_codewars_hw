@@ -1,0 +1,52 @@
+//RETURN NEGATIVE
+// function makeNegative(num){
+//     if(num > 0){
+//         return(num - (num * 2))
+//     } else
+//         return(num)
+// }
+// makeNegative(1)
+// console.log(makeNegative(-0.12))
+
+//SUM OF POSITIVE
+// let arr = [1,-4,7,12]
+
+// function positiveSum(arr) {
+//     var sum = 0;
+//     for(var i = 0; i < arr.length; i++) {
+//       if(arr[i] > 0) {
+//        sum += arr[i];
+//      }
+//     }
+//    return sum;
+//    }
+
+// console.log(positiveSum(arr))
+
+//SQUARING AN ARGUMENT
+
+// function numberSquared(number){
+//     return(number * number)
+// }
+
+//SUM ARRAYS
+
+// array = [-2.398]
+// function sum(array) {
+//     let total = 0;
+//     for (let value of array) {
+//       total += value;
+//     }
+//     return total;
+//   }
+// sum(array)
+// console.log(sum(array))
+
+//REVERSE STRING
+
+// let string = "Jake"
+// function reverse(string){
+//     return string ? reverse(string.substring(1)) + string[0] : string
+// }
+// reverse(string)
+// console.log(reverse("Jake"))
